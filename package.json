@@ -1,0 +1,31 @@
+{
+	"name": "adoh-api",
+	"version": "0.0.1",
+	"description": "API untuk member ADOH",
+	"main": "src/app.js",
+	"scripts": {
+		"dev": "nodemon .",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/adoh-dev/adoh-api.git"
+	},
+	"author": "SuspiciousLookingOwl",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/adoh-dev/adoh-api/issues"
+	},
+	"homepage": "https://github.com/adoh-dev/adoh-api#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"youtubei": "0.0.1-rc.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.20.0",
+		"jest": "^26.6.3",
+		"nodemon": "^2.0.7",
+		"prettier": "^2.2.1"
+	}
+}
